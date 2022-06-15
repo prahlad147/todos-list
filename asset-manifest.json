@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/todos-list/static/css/main.72f0ae47.css",
+    "main.js": "/todos-list/static/js/main.1966c1fd.js",
+    "static/js/787.f237a53c.chunk.js": "/todos-list/static/js/787.f237a53c.chunk.js",
+    "static/media/Subodh IAS.jpg": "/todos-list/static/media/Subodh IAS.d2fec2a2370f014f906c.jpg",
+    "static/media/Johar.jpg": "/todos-list/static/media/Johar.e69ca67732367fd4efaa.jpg",
+    "static/media/image2.jpeg": "/todos-list/static/media/image2.bf04a03c0896ebc4408b.jpeg",
+    "index.html": "/todos-list/index.html",
+    "main.72f0ae47.css.map": "/todos-list/static/css/main.72f0ae47.css.map",
+    "main.1966c1fd.js.map": "/todos-list/static/js/main.1966c1fd.js.map",
+    "787.f237a53c.chunk.js.map": "/todos-list/static/js/787.f237a53c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72f0ae47.css",
+    "static/js/main.1966c1fd.js"
+  ]
+}
