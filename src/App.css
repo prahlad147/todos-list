@@ -1,6 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
   text-align: center;
-}
+  }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Card2-image{
+  width: 10px;
+}
+
+.Card2{
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+}
+
+.card-title{
+  text-align: left;
+}
+
+.logo{
+  width: 60px;
+  margin-left: -300px;
+}
+
+.logo-img{
+  width: 70px;
+}
+
+/* .bi bi-box-arrow-up-right{
+  text-decoration: none;
+} */
+
+
+
+#whatsapp {
+  text-decoration: none;;
 }

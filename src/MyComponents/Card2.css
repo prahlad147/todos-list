@@ -1,0 +1,16 @@
+.text {
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    width: 100px;
+}
+
+.card{
+    width: 400px;
+}
+
+.icon-red {
+    color:red;
+}
