@@ -4,9 +4,37 @@ import image from './image2.jpeg'
 import './Card2.css';
 import logo from './logo.png';
 
-export const Card3 = () => {
+export const Card6 = () => {
+
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+
   return (
+
+
+    
       <>
+      {/* {function myfunction(){
+        document.getElementById("demo").innerHTML ="Hello World";
+      }} */}
       <center>
       {/* <p className="text"> Hello World</p> */}
     <div>
@@ -29,9 +57,10 @@ export const Card3 = () => {
     </div>
     <br />
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-</div>
+    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+
     <br/>
     <br/>
     <div class ="container">
@@ -56,7 +85,7 @@ export const Card3 = () => {
     </div>
     <div class="col">
 
-    <a  id = "whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">     Join Class</i></a>
+   <a  id = "whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">     Join Class</i></a>
     </div>
     <div class="col">
     <i class="bi bi-share">    Share</i>

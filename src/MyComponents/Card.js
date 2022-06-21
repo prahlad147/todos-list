@@ -1,17 +1,16 @@
-import React from 'react'
-import Card2 from './Card2';
-import Card3 from './Card3';
-import Card4 from './Card4';
+// import React from 'react'
 
-const Card = () => {
-  return (
-    <>
-
-      <Card2 />
-      <Card3 />
-      <Card4 />
-    </>
-  )
-}
-
-export default Card;
+// export const Card = () => {
+//   return (
+//     <div>
+//         <div className="card" style="width: 18rem;">
+//   <img src="..." className="card-img-top" alt="..."/>
+//   <div className="card-body">
+//     <h5 className="card-title">Card title</h5>
+//     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//     <a href="#" className="btn btn-primary">Go somewhere</a>
+//   </div>
+// </div>
+//     </div>
+//   )
+// }
