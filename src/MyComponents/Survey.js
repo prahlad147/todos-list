@@ -1,10 +1,10 @@
 import React from 'react'
 import image from './image2.jpeg'
 // import '../App.css';
-import './Card2.css';
+// import './Card2.css';
 import logo from './logo.png';
 
-export const Card5 = () => {
+export const Survey = () => {
   return (
       <>
       <center>
@@ -100,3 +100,5 @@ export const Card5 = () => {
     </>
   )
 }
+
+export default Survey;

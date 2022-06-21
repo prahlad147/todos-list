@@ -1,10 +1,10 @@
 import React from 'react'
 import image from './image2.jpeg'
 // import '../App.css';
-import './Card2.css';
+// import './Card2.css';
 import logo from './logo.png';
 
-export const Card8 = () => {
+export const Notifications = () => {
   return (
       <>
       {/* {function myfunction(){
@@ -30,7 +30,7 @@ export const Card8 = () => {
       {/* <p className="text"> Hello World</p> */}
     <div>
     {/* <p>Hello World</p> */}
-        <div className="card">
+        <div className="card dimension">
   {/* <img src={image} className="card-img-top" alt="..." /> */}
 
   <div className="card-body">
@@ -173,3 +173,5 @@ export const Card8 = () => {
     </>
   )
 }
+
+export default Notifications;

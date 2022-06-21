@@ -1,7 +1,7 @@
 import React from 'react'
 import image from './image2.jpeg'
-// import '../App.css';
-import './Card2.css';
+import '../App.css';
+// import './Card2.css';
 import logo from './logo.png';
 
 export const Card2 = () => {
@@ -10,16 +10,16 @@ export const Card2 = () => {
       {/* {function myfunction(){
         document.getElementById("demo").innerHTML ="Hello World";
       }} */}
-      <center>
+      {/* <center>
       <div class="container">
   <div class="row align-items-start">
     <div class="col">
     <i class="bi bi-collection-play"></i>
     <br />
     {/* <button onClick="myfunction()">LECTURES</button> */}
-      LECTURES
+      {/* LECTURES */}
       {/* <p id="demo"></p> */}
-    </div>
+    {/* </div>
     <div class="col">
     <i class="bi bi-journal-text"></i>
     <br />
@@ -37,9 +37,9 @@ export const Card2 = () => {
     </div>
   </div>
     </div>
-    <hr/>
+    <hr/> */}
 
-    <div class="container">
+    {/* <div class="container">
     <div class="row">
     <div class="col">
     <button type="button" class="btn btn-outline-dark">Live</button>
@@ -53,12 +53,13 @@ export const Card2 = () => {
     <i class="bi bi-funnel-fill"></i>
     </div>
   </div>
-</div>
+</div> */}
+<center>
     
     <div class="shadow-sm p-3 mb-5 bg-body rounded">
      <div class="row align-items-start">
     <div class="col">
-      Trending
+      <a className="nav-link" href="/Trending">Trending</a>
     </div>
     <div class="col">
       Current
@@ -83,24 +84,27 @@ export const Card2 = () => {
       {/* <p className="text"> Hello World</p> */}
     <div>
     {/* <p>Hello World</p> */}
-        <div className="card">
+        <div className="card dimension mb-5">
   {/* <img src={image} className="card-img-top" alt="..." /> */}
 
-  <div className="card-body">
+  <div className="card-body real">
   {/* <img src={logo}  className="logo"/>  */}
-    <div class = "container">
+    <div class = "container-fluid">
       <div class = "row">
-        <div class="col-3">
+        <div class="col-1">
         <a href='https://mobishaala.com/'><img src={logo} class="logo-img"></img> </a>  
         </div>
-        <div class ="col-9">
-        <h6 className="card-title">Mobishaala Training Centre</h6>
-        <p className="card-title"> Yesterday at 08:44 PM   </p>
+        <div class ="col-8">
+        <h6 className="card-title1 ">Mobishaala Training Centre</h6>
+        <p className="card-title2 me-5"> Yesterday at 08:44 PM   </p>
         </div>
+        <div className='col-3 mt-3'>
+        <button type="button" class="btn btn-outline-danger">Go to institute</button>
+        </div>
+
       </div>
     </div>
     <br />
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <img src={image} className="card-img-top" alt="..." />
     <br/>
     <br/>
@@ -145,3 +149,4 @@ export const Card2 = () => {
     </>
   )
 }
+export default Card2;

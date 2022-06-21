@@ -1,13 +1,6 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-
 .App {
   text-align: center;
-  }
-
+}
 
 .App-logo {
   height: 40vmin;
@@ -44,38 +37,77 @@
   }
 }
 
-
-.Card2-image{
-  width: 10px;
+.navbar a:hover{
+  color: red;
 }
 
-.Card2{
-  text-align: center;
+.navbar {
+  background-color: white;
 }
 
-.card{
-  text-align: center;
+.discover2{
+  background-color: #8A0727;
+  height: 90.5px;
 }
 
-.card-title{
-  text-align: left;
+.search{
+  background-color: grey;
+  height: 136px;
 }
 
-.logo{
-  width: 60px;
-  margin-left: -300px;
+.bi-chevron-left{
+ color: white;
+ font-size: 19.87px;
+}
+.classes {
+  font-size: 17.5px;
+  color: white;
+}
+.icon{
+  color: white;
+  font-size: 32.63px;
+}
+
+.bi-funnel-fill{
+  color: #8A0727;
+  font-size: 32.63px;
+}
+
+.real{
+  height: 497px
 }
 
 .logo-img{
-  width: 70px;
+  height: 53.5px;
 }
 
-/* .bi bi-box-arrow-up-right{
-  text-decoration: none;
+.card, .card-body real{
+  height: 497px;
+}
+
+.dimension {
+  /* width: 400px; */
+  height: 497px
+}
+
+/* .card-img-top{
+  height: 246.5px;
+  /* width: 460px; */
+ */
+
+/* .btn-outline-danger{
+  width: 100px;
+  font-size: 10px;
 } */
 
-
-
-#whatsapp {
-  text-decoration: none;;
+.card-title1{
+  font-size: 17.5px;
 }
+
+.card-title2{
+  font-size: 15px;
+}
+
+/* .dropdown-toggle{
+  width: 100px;
+} */

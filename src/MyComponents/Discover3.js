@@ -1,10 +1,10 @@
 import React from 'react'
 import image from './image2.jpeg'
 // import '../App.css';
-import './Card2.css';
+// import './Card2.css';
 import logo from './logo.png';
 
-export const Card9 = () => {
+export const Discover3 = () => {
   return (
       <>
       {/* {function myfunction(){
@@ -41,6 +41,18 @@ export const Card9 = () => {
       </div>
     </div>
     <br />
+
+    
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><button class="dropdown-item" type="button">Action</button></li>
+    <li><button class="dropdown-item" type="button">Another action</button></li>
+    <li><button class="dropdown-item" type="button">Something else here</button></li>
+  </ul>
+</div>
 
 
     <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -216,6 +228,9 @@ export const Card9 = () => {
 </div>
     </div>
 
+
+
+
     {/* <div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
 </div> */}
@@ -223,3 +238,5 @@ export const Card9 = () => {
     </>
   )
 }
+
+export default Discover3;
