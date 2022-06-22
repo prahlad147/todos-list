@@ -1,0 +1,79 @@
+.dimension {
+    width: 385px;
+    text-align: center;
+}
+
+.dimension2 {
+    height: 50px;
+}
+
+
+.size {
+    font-size: 9px;
+}
+
+.texta {
+    text-align: center;
+}
+
+.radius {
+    border-radius: 42px;
+    font-weight: 500;
+    background-color: #8A0727;
+}
+
+.colorg {
+    background-color: #F7F8FA;
+}
+
+.textat {
+    line-height: 50px;
+}
+
+.logos {
+    font-size: 25px;
+}
+
+
+.borderr {
+    border-radius: 42px;
+}
+
+.textr {
+    text-align: right;
+}
+
+.surveys {
+    text-align: center;
+    width: 80%;
+}
+
+.surveys2 {
+    width: 90%;
+    color: white;
+    background-color: #8A0727;
+}
+
+.buttons {
+    color: black;
+    background-color: #F7F8FA;
+}
+
+.surveys1 {
+    background-color: #8A0727;
+    color: white;
+    height: 60px;
+    line-height: 45px;
+}
+
+.surveys3 {
+    background-color: #F7F8FA;
+}
+
+.widths {
+    width: 95%;
+}
+
+.alignc {
+    text-align: right;
+}
