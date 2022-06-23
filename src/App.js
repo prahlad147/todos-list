@@ -104,6 +104,10 @@ function App() {
           <NavBar2 />
           <NavBar3 />
           <NotificationC />
+          <NotificationC />
+          <NotificationC />
+          <NotificationC />
+          <br />
 
           {/* <Card3 /> */}
           {/* <Card4 />
