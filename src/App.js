@@ -23,6 +23,11 @@ import Search3 from './MyComponents/Search3';
 import Trending from './MyComponents/Trending';
 import NotesC from './MyComponents/NotesC';
 import Survey from './MyComponents/Survey';
+import Lesson from './MyComponents/Lesson';
+import './MyComponents/style.css';
+import Notification from './MyComponents/Notification';
+import NavBar3 from './MyComponents/NavBar3';
+import NotificationC from './MyComponents/NotificationC';
 
 
 
@@ -49,53 +54,68 @@ function App() {
 
 
     <>
-
-      {/* Welcome to HomePage */}
-      <Homepage />
-      <NavBar />
-      <Search />
-      <Exam />
-      <Card2 />
-      <Card2 />
-      <Card2 />
-
-
-      {/* Welcome to LNQN Page */}
-      <LNQN />
-      <Homepage />
-      <NavBar2 />
-      <Search2 />
-      <LNQNC />
-      <LNQNC />
-      <LNQNC />
+      <center>
+        <div className='main widthm'>
+          {/* Welcome to HomePage */}
+          <Homepage />
+          <NavBar />
+          <Search />
+          <Exam />
+          <Card2 />
+          <Card2 />
+          <Card2 />
 
 
-      {/* Welcome to Notes Section */}
-
-      <Notes />
-      <Homepage />
-      <NavBar2 />
-      <Search3 />
-      <Trending />
-      <NotesC />
-
-
-      {/* Welcome to REEL Section */}
+          {/* Welcome to LNQN Page */}
+          <LNQN />
+          <Homepage />
+          <NavBar2 />
+          <Search2 />
+          <LNQNC />
+          <LNQNC />
+          <LNQNC />
 
 
+          {/* Welcome to Notes Section */}
 
-      {/* Welcome to Survey Page */}
-      <Survey />
+          <Notes />
+          <Homepage />
+          <NavBar2 />
+          <Search3 />
+          <Trending />
+          <NotesC />
 
-      {/* <Card3 /> */}
-      {/* <Card4 />
+
+          {/* Welcome to REEL Section */}
+
+
+
+          {/* Welcome to Survey Page */}
+          <Survey />
+
+
+          {/* Welcome to Lecture Session */}
+          {/* <Lesson /> */}
+
+
+          {/* Welcome to Notification Session */}
+
+          <Notification />
+          <NavBar2 />
+          <NavBar3 />
+          <NotificationC />
+
+          {/* <Card3 /> */}
+          {/* <Card4 />
       <Card5 />
       <Card6 /> */}
-      {/* <Card2 />
+          {/* <Card2 />
     <Card2 /> */}
 
 
-      {/* <Card /> */}
+          {/* <Card /> */}
+        </div>
+      </center>
     </>
   );
 }

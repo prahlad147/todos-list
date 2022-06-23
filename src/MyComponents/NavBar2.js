@@ -5,10 +5,10 @@ const NavBar2 = () => {
         <>
             <div class="container dimension size mt-3">
                 <div class="row row-cols-4">
-                    <div class="col"><i class="bi bi-play-btn logos"></i></div>
-                    <div class="col"><i class="bi bi-journal-text logos"></i></div>
-                    <div class="col"><i class="bi bi-lightbulb logos"></i></div>
-                    <div class="col"><i class="bi bi-bell logos"></i></div>
+                    <div class="col"><i style={{ fontSize: "32px" }} class="bi bi-play-btn logos"></i></div>
+                    <div class="col"><i style={{ fontSize: "32px" }} class="bi bi-journal-text logos"></i></div>
+                    <div class="col"><i style={{ fontSize: "32px" }} class="bi bi-lightbulb logos"></i></div>
+                    <div class="col"><i style={{ fontSize: "32px" }} class="bi bi-bell logos"></i></div>
                     <hr style={{ color: "#8A0727" }} />
                 </div>
             </div>

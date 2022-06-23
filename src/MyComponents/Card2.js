@@ -61,7 +61,8 @@ export const Card2 = () => {
               </div>
               <br />
               <p style={{ textAlign: "left" }} className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <img style={{ width: "350px" }} src={image} className="card-img-top" alt="..." />
+
+              <img src={image} className="card-img-top" alt="..." />
               <br />
               <br />
               <div class="container">
@@ -84,9 +85,9 @@ export const Card2 = () => {
                   <div class="col">
                     <i class="bi bi-heart">     Like</i>
                   </div>
-                  <div class="col">
+                  <div class="col-5">
 
-                    <a id="whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">     Join Class</i></a>
+                    <a id="whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">   Join Class</i></a>
                   </div>
                   <div class="col">
                     <i class="bi bi-share">    Share</i>

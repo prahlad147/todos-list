@@ -62,7 +62,7 @@ export const NotesC = () => {
                             <br />
                             <p style={{ textAlign: "left" }} className="card-text"><strong>Some quick example text to build on the card title and make up the bulk of the card's content.</strong></p>
                             <p style={{ textAlign: "left" }} className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <img style={{ width: "350px" }} src={image} className="card-img-top" alt="..." />
+                            <img src={image} className="card-img-top" alt="..." />
                             <br />
                             <br />
                             <div class="container">
@@ -85,7 +85,7 @@ export const NotesC = () => {
                                     <div class="col">
                                         <i class="bi bi-heart">     Like</i>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-5">
 
                                         <a id="whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">     Join Class</i></a>
                                     </div>

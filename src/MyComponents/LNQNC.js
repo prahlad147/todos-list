@@ -86,7 +86,7 @@ export const LNQNC = () => {
                                     <div class="col">
                                         <i class="bi bi-heart">     Like</i>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-5">
 
                                         <a id="whatsapp" href='https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&app_absent=0'><i class="bi bi-whatsapp">     Join Class</i></a>
                                     </div>

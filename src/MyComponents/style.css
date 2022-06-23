@@ -12,6 +12,10 @@
     font-size: 9px;
 }
 
+.size2 {
+    font-size: 19px;
+}
+
 .texta {
     text-align: center;
 }
@@ -76,4 +80,20 @@
 
 .alignc {
     text-align: right;
+}
+
+.widthm {
+    width: 385px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
 }
