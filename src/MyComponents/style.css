@@ -43,6 +43,10 @@
     border-radius: 42px;
 }
 
+.buttonr {
+    color: #000;
+}
+
 .textr {
     text-align: right;
 }
@@ -96,4 +100,38 @@
     color: #000;
     text-align: center;
     font: 32px Arial, sans-serif;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.App {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+}
+
+.insta-logo {
+    width: 20%;
+    max-width: 200px;
+}
+
+.video-container {
+    position: relative;
+    height: 70vh;
+    width: 95%;
+    max-width: 500px;
+    border-radius: 2px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+/* for chrome and opera */
+.video-container::-webkit-scrollbar {
+    display: none;
 }

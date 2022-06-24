@@ -28,10 +28,22 @@ import './MyComponents/style.css';
 import Notification from './MyComponents/Notification';
 import NavBar3 from './MyComponents/NavBar3';
 import NotificationC from './MyComponents/NotificationC';
+import Reel from './MyComponents/Reel';
+import Reels from './MyComponents/Reels';
+
+
+
+
+
+
 
 
 
 function App() {
+
+
+
+
 
   let todos = [
     {
@@ -54,6 +66,18 @@ function App() {
 
 
     <>
+
+
+
+
+
+
+
+
+
+
+
+
       <center>
         <div className='main widthm'>
           {/* Welcome to HomePage */}
@@ -108,6 +132,9 @@ function App() {
           <NotificationC />
           <NotificationC />
           <br />
+
+          <Reels />
+          <Reel />
 
           {/* <Card3 /> */}
           {/* <Card4 />
