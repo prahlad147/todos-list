@@ -44,7 +44,14 @@
 }
 
 .buttonr {
-    color: #000;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    width: 55px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 18px;
 }
 
 .textr {
@@ -134,4 +141,8 @@ html {
 /* for chrome and opera */
 .video-container::-webkit-scrollbar {
     display: none;
+}
+
+.mar {
+    margin-top: 100px;
 }
