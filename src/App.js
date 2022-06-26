@@ -30,6 +30,12 @@ import NavBar3 from './MyComponents/NavBar3';
 import NotificationC from './MyComponents/NotificationC';
 import Reel from './MyComponents/Reel';
 import Reels from './MyComponents/Reels';
+import { Link, Switch, Route, Routes } from 'react-router-dom';
+import Discover from './MyComponents/Discover';
+import HomepageF from './MyComponents/HomepageF';
+import LectureF from './MyComponents/LectureF';
+import NotificationF from './MyComponents/NotificationF';
+import NotesF from './MyComponents/NotesF';
 
 
 
@@ -41,37 +47,55 @@ import Reels from './MyComponents/Reels';
 
 function App() {
 
-
-
-
-
-  let todos = [
-    {
-      sno: 1,
-      title: "Go to the market",
-      desc: "You need to go the market to get this job done"
-    },
-    {
-      sno: 2,
-      title: "Go to the market",
-      desc: "You need to go the market to get this job done"
-    },
-    {
-      sno: 3,
-      title: "Go to the market",
-      desc: "You need to go the market to get this job done"
-    },
-  ];
   return (
 
 
     <>
 
+      {/* <Routes>
+        <Route exact path='/' element={<Homepage />} />
+        <Route exact path='/Lectures' element={<LNQNC />} />
+        <Route exact path='/Notes' element={<NotesC />} />
+        <Route exact path='/quizzes' element={<Contact />} />
+        <Route exact path='/notifications' element={<NotificationC />} />
+      </Routes> */}
+
+      <nav>
+        <ul>
+          {/* <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li> */}
+          <li>
+            <Link to="/reel">Reel</Link>
+          </li>
+
+          <li>
+            <Link to="/survey">Survey</Link>
+          </li>
+        </ul>
+      </nav>
+
+
+      <Homepage />
+      <NavBar />
 
 
 
-
-
+      <Routes>
+        <Route exact path='/discover' element={<Discover />} />
+        <Route exact path='/lectures' element={<LectureF />} />
+        <Route exact path='/homepage' element={<HomepageF />} />
+        <Route exact path='/reel' element={<Reel />} />
+        <Route exact path='/survey' element={<Survey />} />
+        <Route exact path='/notifications' element={<NotificationF />} />
+        <Route exact path='/notes' element={<NotesF />} />
+      </Routes>
 
 
 
@@ -81,41 +105,27 @@ function App() {
       <center>
         <div className='main widthm'>
           {/* Welcome to HomePage */}
-          <Homepage />
-          <NavBar />
-          <Search />
-          <Exam />
-          <Card2 />
-          <Card2 />
-          <Card2 />
 
+
+
+
+          {/* <HomepageF /> */}
 
           {/* Welcome to LNQN Page */}
-          <LNQN />
-          <Homepage />
-          <NavBar2 />
-          <Search2 />
-          <LNQNC />
-          <LNQNC />
-          <LNQNC />
 
+          {/* <LectureF /> */}
 
           {/* Welcome to Notes Section */}
 
-          <Notes />
-          <Homepage />
-          <NavBar2 />
-          <Search3 />
-          <Trending />
-          <NotesC />
+          {/* <NotesF /> */}
 
 
           {/* Welcome to REEL Section */}
 
-
+          {/* <NotificationF /> */}
 
           {/* Welcome to Survey Page */}
-          <Survey />
+          {/* <Survey /> */}
 
 
           {/* Welcome to Lecture Session */}
@@ -124,17 +134,11 @@ function App() {
 
           {/* Welcome to Notification Session */}
 
-          <Notification />
-          <NavBar2 />
-          <NavBar3 />
-          <NotificationC />
-          <NotificationC />
-          <NotificationC />
-          <NotificationC />
+
           <br />
 
-          <Reels />
-          <Reel />
+          {/* <Reels />
+          <Reel /> */}
 
           {/* <Card3 /> */}
           {/* <Card4 />

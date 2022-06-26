@@ -5,8 +5,8 @@ const Survey = () => {
         <>
             <center>
 
-                <p><strong>WELCOME TO SURVEY PAGE</strong></p>
-                <div class="card text-center widths">
+                {/* <p><strong>WELCOME TO SURVEY PAGE</strong></p> */}
+                <div class="card text-center widths mt-5">
                     <div class="card-header surveys1">
                         <strong> SURVEY </strong>
                     </div>

@@ -73,9 +73,9 @@ export default function Footer({ channel, song, likes, comment, shares }) {
         </div>
 
         <div className="flex-box">
-
-          {/* <p style={{ textAlign: "left" }} className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
         </div>
+        {/* <p style={{ textAlign: "left" }} className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+
 
         {/* <p style={{ textAlign: "left" }} className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
 

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Link, Switch, Route, Routes } from 'react-router-dom';
+import './style.css';
 
 const NavBar2 = () => {
     return (
@@ -16,10 +18,10 @@ const NavBar2 = () => {
 
             <div class="container dimension size mb-1">
                 <div class="row row-cols-4">
-                    <div class="col"><b>LECTURES</b></div>
-                    <div class="col"><b>NOTES</b></div>
+                    <div class="col linkd"><b><Link to="/lectures" className='linkd' style={{ color: "black" }}>LECTURES</Link></b></div>
+                    <div class="col"><b><Link to="/notes">NOTES</Link></b></div>
                     <div class="col"><b>QUIZZES</b></div>
-                    <div class="col"><b>NOTIFICATIONS</b></div>
+                    <div class="col"><b><Link to="/notifications">NOTIFICATIONS</Link></b></div>
                 </div>
             </div>
         </>

@@ -6,9 +6,10 @@ import logo from './logo.png';
 
 const NotificationC = () => {
     return (
-        <>
+        <><center>
 
             <div>
+
                 {/* <p>Hello World</p> */}
                 <div className="card widths surveys3">
                     {/* <img src={image} className="card-img-top" alt="..." /> */}
@@ -34,7 +35,7 @@ const NotificationC = () => {
                 </div>
             </div>
 
-
+        </center>
 
 
         </>
