@@ -36,6 +36,8 @@ import HomepageF from './MyComponents/HomepageF';
 import LectureF from './MyComponents/LectureF';
 import NotificationF from './MyComponents/NotificationF';
 import NotesF from './MyComponents/NotesF';
+import QuizzesC from './MyComponents/QuizzesC';
+import QuizF from './MyComponents/QuizF';
 
 
 
@@ -84,10 +86,12 @@ function App() {
 
       <Homepage />
       <NavBar />
+      {/* <HomepageF /> */}
 
 
 
       <Routes>
+        <Route exact path='/' element={<HomepageF />} />
         <Route exact path='/discover' element={<Discover />} />
         <Route exact path='/lectures' element={<LectureF />} />
         <Route exact path='/homepage' element={<HomepageF />} />
@@ -95,8 +99,10 @@ function App() {
         <Route exact path='/survey' element={<Survey />} />
         <Route exact path='/notifications' element={<NotificationF />} />
         <Route exact path='/notes' element={<NotesF />} />
+        <Route exact path='/quizzes' element={<QuizF />} />
       </Routes>
 
+      {/* <QuizzesC /> */}
 
 
 

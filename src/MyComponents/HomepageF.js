@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Exam from './Exam';
 import Search from './Search';
 import './style.css';
+import Lesson from './Lesson';
 
 
 const HomepageF = () => {
@@ -17,6 +18,7 @@ const HomepageF = () => {
                     <Search />
                     <Exam />
                     <Card2 />
+                    <Lesson />
                     <Card2 />
                     <Card2 />
                 </div>

@@ -20,7 +20,7 @@ const NavBar2 = () => {
                 <div class="row row-cols-4">
                     <div class="col linkd"><b><Link to="/lectures" className='linkd' style={{ color: "black" }}>LECTURES</Link></b></div>
                     <div class="col"><b><Link to="/notes">NOTES</Link></b></div>
-                    <div class="col"><b>QUIZZES</b></div>
+                    <div class="col"><b><Link to="/quizzes">QUIZZES</Link></b></div>
                     <div class="col"><b><Link to="/notifications">NOTIFICATIONS</Link></b></div>
                 </div>
             </div>
