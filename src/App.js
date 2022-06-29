@@ -74,7 +74,7 @@ function App() {
             <Link to="/about">About</Link>
           </li> */}
           <li>
-            <Link to="/reel">Reel</Link>
+            <Link to="/reel">Lessons</Link>
           </li>
 
           <li>
