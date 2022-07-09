@@ -80,15 +80,6 @@ function App() {
           <li>
             <Link to="/survey">Survey</Link>
           </li>
-          <li>
-            <Link to="/survey">Survey</Link>
-          </li>
-          <li>
-            <Link to="/survey">Survey</Link>
-          </li>
-          <li>
-            <Link to="/survey">Survey</Link>
-          </li>
         </ul>
       </nav>
 
